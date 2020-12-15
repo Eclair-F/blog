@@ -17,8 +17,9 @@ import NProgress from 'nprogress'
 
 //配置axios
 //axios.defaults.timeout = 1000;
+axios.defaults.baseURL = "http://47.102.208.190:8601/";
 
-axios.defaults.baseURL = "http://127.0.0.1:8601/";
+//axios.defaults.baseURL = "http://127.0.0.1:8601/";
 //axios.defaults.withCredentials = true;
 axios.interceptors.request.use(config => {
 	// 在发起axios的时候展示进度条

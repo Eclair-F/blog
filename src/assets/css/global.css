@@ -1,0 +1,22 @@
+/* 全局的样式表 */
+* {
+      padding: 0;
+      margin: 0;
+}
+
+/* 解决连级选择框悬浮框全屏的问题 */
+.el-cascader-panel {
+      height: 200px;
+}
+
+.ql-editor {
+      min-height: 300px;
+}
+
+html,
+body,
+#app {
+      width: 100%;
+      height: 100%;
+      min-width: 1366px;
+}
